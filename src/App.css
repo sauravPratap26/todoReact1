@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body {
+  background-color: #ccddff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  text-align: cneter;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container{
+  background-color: rgb(7,2,71);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 70%;
+  margin-left: 26%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+}
+
+input[type=text],select{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button{
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 15%;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 20px;
+  margin: 0px 0;
+  margin-left: 70px;
+  margin-bottom: 2px;
+  border: none;
+}
+
+.header{
+  width: 100%;
+  padding: 12px 20px;
   color: white;
+  font-size: 50px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.List-heading{
+  color: black;
+  font-size: 50px;
+  text-align: left;
+  background-color: blue;
+  width: 60%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listData{
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  text-align: left;
+  padding-left: 30px;
+  width: 53%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+}
+
+.btn-position{
+  position: relative;
+  left:11%;
+  top: -54px;
+
 }
